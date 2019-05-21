@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AddressDBModelStoreContainer" CdmEntityContainer="AddressDBEntities">
+    <EntitySetMapping Name="AddressBooks">
+      <EntityTypeMapping TypeName="AddressDBModel.AddressBook">
+        <MappingFragment StoreEntitySet="AddressBook">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="emailAddress" ColumnName="emailAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

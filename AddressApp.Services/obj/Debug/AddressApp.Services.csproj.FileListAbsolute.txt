@@ -1,0 +1,14 @@
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Services.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Services.pdb
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Models.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Repository.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\EntityFramework.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Models.pdb
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Models.dll.config
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Repository.pdb
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\bin\Debug\AddressApp.Repository.dll.config
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\obj\Debug\AddressApp.Services.csprojAssemblyReference.cache
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\obj\Debug\AddressApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\obj\Debug\AddressApp.Services.csproj.CopyComplete
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\obj\Debug\AddressApp.Services.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Services\obj\Debug\AddressApp.Services.pdb

@@ -1,0 +1,9 @@
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\bin\Debug\AddressApp.Models.dll.config
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\bin\Debug\AddressApp.Models.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\bin\Debug\AddressApp.Models.pdb
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\bin\Debug\EntityFramework.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\obj\Debug\AddressApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\obj\Debug\AddressApp.Models.csproj.CopyComplete
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\obj\Debug\AddressApp.Models.dll
+C:\Users\w7037954\source\repos\AddressApp.Web\AddressApp.Models\obj\Debug\AddressApp.Models.pdb

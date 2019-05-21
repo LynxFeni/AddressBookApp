@@ -1,0 +1,104 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddressBookApp</title>
+
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/AppScript/app.js"></script>
+    <script src="~/AppScript/addressBook.js"></script>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+</head>
+
+<body ng-app="addressBookModule"  ng-init="loadRecords">
+    <div ng-controller="addressBookCtrl" class="container-fluid">
+        <div><h3>Address Book </h3> </div>
+        <table ng-cloak class="pure-table">
+            <thead>
+                <tr>
+                    <th hidden="hidden">Id</th>
+                    <th>Phone Number</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email Address</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in addressData">
+                    <td style="display:none">{{item.Id}}</td>
+                    <td>{{item.phoneNumber}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.surname}}</td>
+                    <td>{{item.emailAddress}}</td>
+                    <td>
+                        <button ng-model="$scope.Address" ng-click="edit(addressData[$index])" class="pure-button pure-button-primary">Edit</button>
+                        <button ng-click="delete($index)" class="pure-button pure-button-primary">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <div>
+            <button ng-click="addnewdiv=true" class="pure-button pure-button-primary">Add new Address Book</button>
+        </div>
+        <div ng-show="addnewdiv" class="pure-form">
+            <div>
+                <label for="phoneName" class="pure-u-1-8">Phone Number</label>
+                <input type="text" data-ng-model="Address.phoneNumber" />
+            </div>
+            <div>
+                <label for="lastname" class="pure-u-1-8">Name</label>
+                <input type="text" data-ng-model="Address.name" />
+            </div>
+            <div>
+                <label for="surname" class="pure-u-1-8">Surname</label>
+                <input type="text" data-ng-model="Address.surname" />
+            </div>
+            <div>
+                <label for="emailAddress" class="pure-u-1-8">Email Address</label>
+                <input type="text" data-ng-model="Address.emailAddress" />
+            </div>
+
+            <div>
+                <button data-ng-click="save()" class="pure-button pure-button-primary">Save</button>
+                <button data-ng-click="clear()" class="pure-button pure-button-primary">Cancel</button>
+            </div>
+        </div>
+        <div ng-show="updatediv" class="pure-form">
+            <div hidden="hidden">
+                <label for="Id" class="pure-u-1-8">Id</label>
+                <input type="text" data-ng-model="Address.Id" />
+            </div>
+            <div>
+                <label for="phoneNumber" class="pure-u-1-8">Phone Number</label>
+                <input type="text" data-ng-model="Address.phoneNumber" />
+            </div>
+            <div>
+                <label for="name" class="pure-u-1-8">Name</label>
+                <input type="text" data-ng-model="Address.name" />
+            </div>
+            <div>
+                <label for="surname" class="pure-u-1-8">Surname</label>
+                <input type="text" data-ng-model="Address.surname" />
+            </div>
+            <div>
+                <label for="emailAddress" class="pure-u-1-8">Email Address</label>
+                <input type="text" data-ng-model="Address.emailAddress" />
+            </div>
+           
+            <div>
+                <button data-ng-click="update()" class="pure-button pure-button-primary">Update</button>
+                <button data-ng-click="clear()" class="pure-button pure-button-primary">Cancel</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
